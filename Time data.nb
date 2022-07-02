@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    100054,       2212]
-NotebookOptionsPosition[     98844,       2182]
-NotebookOutlinePosition[     99282,       2199]
-CellTagsIndexPosition[     99239,       2196]
+NotebookDataLength[    137379,       3112]
+NotebookOptionsPosition[    136170,       3082]
+NotebookOutlinePosition[    136607,       3099]
+CellTagsIndexPosition[    136564,       3096]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1584,37 +1584,581 @@ Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"TimelinePlot", "[", 
-  RowBox[{"<|", 
-   RowBox[{
-    RowBox[{"\"\<Decision to establish the SI\>\"", "->", 
-     RowBox[{"DateObject", "[", 
-      RowBox[{"{", "1948", "}"}], "]"}]}], ",", 
-    RowBox[{"\"\<Decision on the first six base units\>\"", "->", 
-     RowBox[{"DateObject", "[", 
-      RowBox[{"{", "1954", "}"}], "]"}]}], ",", 
+  RowBox[{
+   RowBox[{"<|", 
     RowBox[{
-    "\"\<decision to adopt the name \[OpenCurlyDoubleQuote]Syst\[EGrave]me \
+     RowBox[{"\"\<Decision to establish the SI\>\"", "->", 
+      RowBox[{"DateObject", "[", 
+       RowBox[{"{", "1948", "}"}], "]"}]}], ",", 
+     RowBox[{"\"\<Decision on the first six base units\>\"", "->", 
+      RowBox[{"DateObject", "[", 
+       RowBox[{"{", "1954", "}"}], "]"}]}], ",", 
+     RowBox[{
+     "\"\<decision to adopt the name \[OpenCurlyDoubleQuote]Syst\[EGrave]me \
 International d\[CloseCurlyQuote]Unit\[EAcute]s\[CloseCurlyDoubleQuote]\>\"", 
-     "->", 
-     RowBox[{"DateObject", "[", 
-      RowBox[{"{", "1956", "}"}], "]"}]}], ",", 
-    RowBox[{"\"\<confirms the name and abbreviation \\\"SI\\\"\>\"", "->", 
-     RowBox[{"DateObject", "[", 
-      RowBox[{"{", "1960", "}"}], "]"}]}]}], "|>"}], "]"}]], "Input",
+      "->", 
+      RowBox[{"DateObject", "[", 
+       RowBox[{"{", "1956", "}"}], "]"}]}], ",", 
+     RowBox[{"\"\<confirms the name and abbreviation \\\"SI\\\"\>\"", "->", 
+      RowBox[{"DateObject", "[", 
+       RowBox[{"{", "1960", "}"}], "]"}]}], ",", 
+     RowBox[{"\"\<names prefixes from tera to pico\>\"", "->", 
+      RowBox[{"DateObject", "[", 
+       RowBox[{"{", "1960", "}"}], "]"}]}], ",", 
+     RowBox[{"\"\<establishes the supplementary units rad and sr\>\"", "->", 
+      RowBox[{"DateObject", "[", 
+       RowBox[{"{", "1960", "}"}], "]"}]}], ",", 
+     RowBox[{"\"\<lists some derived units\>\"", "->", 
+      RowBox[{"DateObject", "[", 
+       RowBox[{"{", "1960", "}"}], "]"}]}], ",", 
+     RowBox[{"\"\<\\\"SI units\\\" and \\\"units of the SI\\\"\>\"", "->", 
+      RowBox[{"DateObject", "[", 
+       RowBox[{"{", "2001", "}"}], "]"}]}], ",", 
+     RowBox[{
+     "\"\<possible redefinition of certain base units of the International \
+System of Units, the SI\>\"", "->", 
+      RowBox[{"DateObject", "[", 
+       RowBox[{"{", "2007", "}"}], "]"}]}], ",", 
+     RowBox[{
+     "\"\<possible future revision of the International System of Units, the \
+SI\>\"", "->", 
+      RowBox[{"DateObject", "[", 
+       RowBox[{"{", "2011", "}"}], "]"}]}], ",", 
+     RowBox[{
+     "\"\<future revision of the International System of Units, the SI\>\"", "->", 
+      RowBox[{"DateObject", "[", 
+       RowBox[{"{", "2014", "}"}], "]"}]}], ",", 
+     RowBox[{
+     "\"\<revision of the International System of Units, the SI\>\"", "->", 
+      RowBox[{"DateObject", "[", 
+       RowBox[{"{", "2018", "}"}], "]"}]}]}], "|>"}], ",", 
+   RowBox[{"ImageSize", "->", "Full"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.865713360919739*^9, 3.8657133760342426`*^9}, {
-  3.865713454879711*^9, 3.865713555240328*^9}},
- CellLabel->"In[10]:=",ExpressionUUID->"4233b481-7757-422d-8a64-3a9899cf477c"],
+  3.865713454879711*^9, 3.865713555240328*^9}, {3.865713641680026*^9, 
+  3.8657136560443935`*^9}, {3.8657136875550756`*^9, 3.865713861370271*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"4233b481-7757-422d-8a64-3a9899cf477c"],
 
 Cell[BoxData[
  GraphicsBox[{
    {AbsolutePointSize[0], Opacity[0], 
-    PointBox[{{1.5146784*^9, 0}, {1.8933696*^9, 8}}], 
-    PointBox[NCache[{{1.5146784*^9, Rational[-1, 2]}, {1.8933696*^9, 0}}, {{
-       1.5146784*^9, -0.5}, {1.8933696*^9, 0}}]]}, {}, {
+    PointBox[{{1.5146784*^9, 0}, {3.7237536*^9, 16}}], 
+    PointBox[NCache[{{1.5146784*^9, Rational[-1, 2]}, {3.7237536*^9, 0}}, {{
+       1.5146784*^9, -0.5}, {3.7237536*^9, 0}}]]}, {}, {
     {PointSize[0], Opacity[0], 
-     PointBox[NCache[{{1.5146784*^9, 0}, {
-        1.9251755244*^9, Rational[15, 2]}}, {{1.5146784*^9, 0}, {
-        1.9251755244*^9, 7.5}}]]}, {
+     PointBox[NCache[{{1.5146784*^9, 0}, {5.03452008*^9, Rational[31, 2]}}, {{
+        1.5146784*^9, 0}, {5.03452008*^9, 15.5}}]]}, {
+     {RGBColor[0.368417, 0.506779, 0.709798], AbsolutePointSize[7], 
+      AbsoluteThickness[1.6], Opacity[1], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         DynamicBox[{
+           FEPrivate`If[
+            CurrentValue["MouseOver"], 
+            Directive[
+             EdgeForm[
+              Directive[
+               RGBColor[0.368417, 0.506779, 0.709798], 
+               Thickness[Large], 
+               Opacity[0.2]]], 
+             FaceForm[{
+               RGBColor[
+               0.24561133333333335`, 0.3378526666666667, 0.4731986666666667], 
+               Opacity[1]}], 
+             CapForm["Round"], 
+             AbsoluteThickness[2.5], 
+             AbsolutePointSize[10], 
+             FrameBoxOptions -> {
+              BoxFrame -> 2.5, FrameStyle -> Automatic}], {}, {}], {{{
+              Directive[
+               Opacity[0.2]], {
+               CapForm["Round"], 
+               
+               LineBox[{{3.7237536*^9, 0}, {
+                 3.7237536*^9, 0}}]}}, {{}, {{{}, {}}, {{}}}}}, {{
+              CapForm["Butt"], 
+              JoinForm["Round"], 
+              LineBox[
+               NCache[{
+                 Offset[{20, 0}, {3.5028288*^9, 
+                   Rational[13, 2]}], 
+                 Offset[{10, 0}, {3.5028288*^9, 
+                   Rational[13, 2]}], 
+                 Offset[{10, 0}, {3.5028288*^9, 
+                   Rational[3, 2]}], {3.7237536*^9, 
+                  Rational[3, 2]}, {3.7237536*^9, 0}}, {
+                 Offset[{20, 0}, {3.5028288*^9, 6.5}], 
+                 Offset[{10, 0}, {3.5028288*^9, 6.5}], 
+                 Offset[{10, 0}, {3.5028288*^9, 1.5}], {3.7237536*^9, 1.5}, {
+                 3.7237536*^9, 0}}]], 
+              PolygonBox[
+               NCache[{
+                 Offset[{20, 5}, {3.5028288*^9, 
+                   Rational[13, 2]}], 
+                 Offset[{15, 0}, {3.5028288*^9, 
+                   Rational[13, 2]}], 
+                 Offset[{20, -5}, {3.5028288*^9, 
+                   Rational[13, 2]}]}, {
+                 Offset[{20, 5}, {3.5028288*^9, 6.5}], 
+                 Offset[{15, 0}, {3.5028288*^9, 6.5}], 
+                 Offset[{20, -5}, {3.5028288*^9, 6.5}]}]], 
+              InsetBox[
+               BoxData[
+                FormBox[
+                 FrameBox[
+                  StyleBox[
+                  "\"revision of the International System of Units, the \
+SI\"", {
+                    GrayLevel[0.3]}, StripOnInput -> False], RoundingRadius -> 
+                  5, FrameMargins -> 5, Background -> GrayLevel[1], 
+                  StripOnInput -> False], TraditionalForm]], 
+               NCache[
+                Offset[{20, 0}, {3.5028288*^9, 
+                  Rational[13, 2]}], 
+                Offset[{20, 0}, {3.5028288*^9, 6.5}]], {Left, Center}, {
+               Automatic, Automatic}]}, {
+              EdgeForm[], 
+              FaceForm[], 
+              RectangleBox[
+               Offset[{0, 0}, {3.5028288*^9, 6}], 
+               Offset[{0, 0}, {4.63086697152*^9, 7}]]}}}},
+          
+          ImageSizeCache->{{579.5242891597416, 892.7559155231052}, {
+           31.93930580901008, 256.0674316909899}}],
+         "DelayedMouseEffectStyle"],
+        StyleBox[
+         TagBox[
+          GridBox[{{
+             TemplateBox[{
+               RowBox[{"\"2018\""}], 
+               RowBox[{"DateObject", "[", 
+                 RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"2018", ",", "1", ",", "1"}], "}"}], ",", 
+                   "\"Day\"", ",", "\"Gregorian\"", ",", 
+                   RowBox[{"-", "4.`"}], ",", "\"SmearedUTC\"", ",", 
+                   RowBox[{"{", "\"Year\"", "}"}]}], "]"}]}, "DateObject", 
+              Editable -> False]}}, 
+           GridBoxAlignment -> {"Columns" -> {{Right}}}, AutoDelete -> False, 
+           GridBoxItemSize -> {
+            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], {
+          GrayLevel[0.3]}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[
+         Grid[{{
+            
+            DateObject[{2018, 1, 1}, "Day", "Gregorian", -4., "SmearedUTC", {
+             "Year"}]}}, Alignment -> Right], {
+          GrayLevel[0.3]}], "Tooltip"]& ]}, 
+     {RGBColor[0.368417, 0.506779, 0.709798], AbsolutePointSize[7], 
+      AbsoluteThickness[1.6], Opacity[1], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         DynamicBox[{
+           FEPrivate`If[
+            CurrentValue["MouseOver"], 
+            Directive[
+             EdgeForm[
+              Directive[
+               RGBColor[0.368417, 0.506779, 0.709798], 
+               Thickness[Large], 
+               Opacity[0.2]]], 
+             FaceForm[{
+               RGBColor[
+               0.24561133333333335`, 0.3378526666666667, 0.4731986666666667], 
+               Opacity[1]}], 
+             CapForm["Round"], 
+             AbsoluteThickness[2.5], 
+             AbsolutePointSize[10], 
+             FrameBoxOptions -> {
+              BoxFrame -> 2.5, FrameStyle -> Automatic}], {}, {}], {{{
+              Directive[
+               Opacity[0.2]], {
+               CapForm["Round"], 
+               
+               LineBox[{{3.5975232*^9, 0}, {
+                 3.5975232*^9, 0}}]}}, {{}, {{{}, {}}, {{}}}}}, {{
+              CapForm["Butt"], 
+              JoinForm["Round"], 
+              LineBox[
+               NCache[{
+                 Offset[{20, 0}, {3.5028288*^9, 
+                   Rational[17, 2]}], 
+                 Offset[{5, 0}, {3.5028288*^9, 
+                   Rational[17, 2]}], 
+                 Offset[{5, 0}, {3.5028288*^9, 
+                   Rational[3, 4]}], {3.5975232*^9, 
+                  Rational[3, 4]}, {3.5975232*^9, 0}}, {
+                 Offset[{20, 0}, {3.5028288*^9, 8.5}], 
+                 Offset[{5, 0}, {3.5028288*^9, 8.5}], 
+                 Offset[{5, 0}, {3.5028288*^9, 0.75}], {3.5975232*^9, 0.75}, {
+                 3.5975232*^9, 0}}]], 
+              PolygonBox[
+               NCache[{
+                 Offset[{20, 5}, {3.5028288*^9, 
+                   Rational[17, 2]}], 
+                 Offset[{15, 0}, {3.5028288*^9, 
+                   Rational[17, 2]}], 
+                 Offset[{20, -5}, {3.5028288*^9, 
+                   Rational[17, 2]}]}, {
+                 Offset[{20, 5}, {3.5028288*^9, 8.5}], 
+                 Offset[{15, 0}, {3.5028288*^9, 8.5}], 
+                 Offset[{20, -5}, {3.5028288*^9, 8.5}]}]], 
+              InsetBox[
+               BoxData[
+                FormBox[
+                 FrameBox[
+                  StyleBox[
+                  "\"future revision of the International System of Units, \
+the SI\"", {
+                    GrayLevel[0.3]}, StripOnInput -> False], RoundingRadius -> 
+                  5, FrameMargins -> 5, Background -> GrayLevel[1], 
+                  StripOnInput -> False], TraditionalForm]], 
+               NCache[
+                Offset[{20, 0}, {3.5028288*^9, 
+                  Rational[17, 2]}], 
+                Offset[{20, 0}, {3.5028288*^9, 8.5}]], {Left, Center}, {
+               Automatic, Automatic}]}, {
+              EdgeForm[], 
+              FaceForm[], 
+              RectangleBox[
+               Offset[{0, 0}, {3.5028288*^9, 8}], 
+               Offset[{0, 0}, {4.76879303616*^9, 9}]]}}}},
+          
+          ImageSizeCache->{{579.5242891597416, 
+           930.2628341409161}, {-30.246269190989892`, 256.0674316909899}}],
+         "DelayedMouseEffectStyle"],
+        StyleBox[
+         TagBox[
+          GridBox[{{
+             TemplateBox[{
+               RowBox[{"\"2014\""}], 
+               RowBox[{"DateObject", "[", 
+                 RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"2014", ",", "1", ",", "1"}], "}"}], ",", 
+                   "\"Day\"", ",", "\"Gregorian\"", ",", 
+                   RowBox[{"-", "4.`"}], ",", "\"SmearedUTC\"", ",", 
+                   RowBox[{"{", "\"Year\"", "}"}]}], "]"}]}, "DateObject", 
+              Editable -> False]}}, 
+           GridBoxAlignment -> {"Columns" -> {{Right}}}, AutoDelete -> False, 
+           GridBoxItemSize -> {
+            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], {
+          GrayLevel[0.3]}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[
+         Grid[{{
+            
+            DateObject[{2014, 1, 1}, "Day", "Gregorian", -4., "SmearedUTC", {
+             "Year"}]}}, Alignment -> Right], {
+          GrayLevel[0.3]}], "Tooltip"]& ]}, 
+     {RGBColor[0.368417, 0.506779, 0.709798], AbsolutePointSize[7], 
+      AbsoluteThickness[1.6], Opacity[1], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         DynamicBox[{
+           FEPrivate`If[
+            CurrentValue["MouseOver"], 
+            Directive[
+             EdgeForm[
+              Directive[
+               RGBColor[0.368417, 0.506779, 0.709798], 
+               Thickness[Large], 
+               Opacity[0.2]]], 
+             FaceForm[{
+               RGBColor[
+               0.24561133333333335`, 0.3378526666666667, 0.4731986666666667], 
+               Opacity[1]}], 
+             CapForm["Round"], 
+             AbsoluteThickness[2.5], 
+             AbsolutePointSize[10], 
+             FrameBoxOptions -> {
+              BoxFrame -> 2.5, FrameStyle -> Automatic}], {}, {}], {{{
+              Directive[
+               Opacity[0.2]], {
+               CapForm["Round"], 
+               
+               LineBox[{{3.5028288*^9, 0}, {
+                 3.5028288*^9, 0}}]}}, {{}, {{{}, {}}, {{}}}}}, {{
+              CapForm["Butt"], 
+              JoinForm["Round"], 
+              LineBox[
+               NCache[{
+                 Offset[{20, 0}, {3.5028288*^9, 
+                   Rational[21, 2]}], 
+                 Offset[{0, 0}, {3.5028288*^9, 
+                   Rational[21, 2]}], 
+                 Offset[{0, 0}, {3.5028288*^9, 3}], {3.5028288*^9, 3}, {
+                 3.5028288*^9, 0}}, {
+                 Offset[{20, 0}, {3.5028288*^9, 10.5}], 
+                 Offset[{0, 0}, {3.5028288*^9, 10.5}], 
+                 Offset[{0, 0}, {3.5028288*^9, 3}], {3.5028288*^9, 3}, {
+                 3.5028288*^9, 0}}]], 
+              PolygonBox[
+               NCache[{
+                 Offset[{20, 5}, {3.5028288*^9, 
+                   Rational[21, 2]}], 
+                 Offset[{15, 0}, {3.5028288*^9, 
+                   Rational[21, 2]}], 
+                 Offset[{20, -5}, {3.5028288*^9, 
+                   Rational[21, 2]}]}, {
+                 Offset[{20, 5}, {3.5028288*^9, 10.5}], 
+                 Offset[{15, 0}, {3.5028288*^9, 10.5}], 
+                 Offset[{20, -5}, {3.5028288*^9, 10.5}]}]], 
+              InsetBox[
+               BoxData[
+                FormBox[
+                 FrameBox[
+                  StyleBox[
+                  "\"possible future revision of the International System of \
+Units, the SI\"", {
+                    GrayLevel[0.3]}, StripOnInput -> False], RoundingRadius -> 
+                  5, FrameMargins -> 5, Background -> GrayLevel[1], 
+                  StripOnInput -> False], TraditionalForm]], 
+               NCache[
+                Offset[{20, 0}, {3.5028288*^9, 
+                  Rational[21, 2]}], 
+                Offset[{20, 0}, {3.5028288*^9, 10.5}]], {Left, Center}, {
+               Automatic, Automatic}]}, {
+              EdgeForm[], 
+              FaceForm[], 
+              RectangleBox[
+               Offset[{0, 0}, {3.5028288*^9, 10}], 
+               Offset[{0, 0}, {4.965830271360001*^9, 11}]]}}}},
+          
+          ImageSizeCache->{{579.5242891597416, 
+           983.8441464520749}, {-92.43184419098998, 256.0674316909899}}],
+         "DelayedMouseEffectStyle"],
+        StyleBox[
+         TagBox[
+          GridBox[{{
+             TemplateBox[{
+               RowBox[{"\"2011\""}], 
+               RowBox[{"DateObject", "[", 
+                 RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"2011", ",", "1", ",", "1"}], "}"}], ",", 
+                   "\"Day\"", ",", "\"Gregorian\"", ",", 
+                   RowBox[{"-", "4.`"}], ",", "\"SmearedUTC\"", ",", 
+                   RowBox[{"{", "\"Year\"", "}"}]}], "]"}]}, "DateObject", 
+              Editable -> False]}}, 
+           GridBoxAlignment -> {"Columns" -> {{Right}}}, AutoDelete -> False, 
+           GridBoxItemSize -> {
+            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], {
+          GrayLevel[0.3]}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[
+         Grid[{{
+            
+            DateObject[{2011, 1, 1}, "Day", "Gregorian", -4., "SmearedUTC", {
+             "Year"}]}}, Alignment -> Right], {
+          GrayLevel[0.3]}], "Tooltip"]& ]}, 
+     {RGBColor[0.368417, 0.506779, 0.709798], AbsolutePointSize[7], 
+      AbsoluteThickness[1.6], Opacity[1], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         DynamicBox[{
+           FEPrivate`If[
+            CurrentValue["MouseOver"], 
+            Directive[
+             EdgeForm[
+              Directive[
+               RGBColor[0.368417, 0.506779, 0.709798], 
+               Thickness[Large], 
+               Opacity[0.2]]], 
+             FaceForm[{
+               RGBColor[
+               0.24561133333333335`, 0.3378526666666667, 0.4731986666666667], 
+               Opacity[1]}], 
+             CapForm["Round"], 
+             AbsoluteThickness[2.5], 
+             AbsolutePointSize[10], 
+             FrameBoxOptions -> {
+              BoxFrame -> 2.5, FrameStyle -> Automatic}], {}, {}], {{{
+              Directive[
+               Opacity[0.2]], {
+               CapForm["Round"], 
+               
+               LineBox[{{3.3765984*^9, 0}, {
+                 3.3765984*^9, 0}}]}}, {{}, {{{}, {}}, {{}}}}}, {{
+              CapForm["Butt"], 
+              JoinForm["Round"], 
+              LineBox[
+               NCache[{
+                 Offset[{15, 0}, {3.187296*^9, 
+                   Rational[5, 2]}], 
+                 Offset[{5, 0}, {3.187296*^9, 
+                   Rational[5, 2]}], 
+                 Offset[{5, 0}, {3.187296*^9, 
+                   Rational[3, 2]}], {3.3765984*^9, 
+                  Rational[3, 2]}, {3.3765984*^9, 0}}, {
+                 Offset[{15, 0}, {3.187296*^9, 2.5}], 
+                 Offset[{5, 0}, {3.187296*^9, 2.5}], 
+                 Offset[{5, 0}, {3.187296*^9, 1.5}], {3.3765984*^9, 1.5}, {
+                 3.3765984*^9, 0}}]], 
+              PolygonBox[
+               NCache[{
+                 Offset[{15, 5}, {3.187296*^9, 
+                   Rational[5, 2]}], 
+                 Offset[{10, 0}, {3.187296*^9, 
+                   Rational[5, 2]}], 
+                 Offset[{15, -5}, {3.187296*^9, 
+                   Rational[5, 2]}]}, {
+                 Offset[{15, 5}, {3.187296*^9, 2.5}], 
+                 Offset[{10, 0}, {3.187296*^9, 2.5}], 
+                 Offset[{15, -5}, {3.187296*^9, 2.5}]}]], 
+              InsetBox[
+               BoxData[
+                FormBox[
+                 FrameBox[
+                  StyleBox[
+                  "\"possible redefinition of certain base units of the \
+International System of Units, the SI\"", {
+                    GrayLevel[0.3]}, StripOnInput -> False], RoundingRadius -> 
+                  5, FrameMargins -> 5, Background -> GrayLevel[1], 
+                  StripOnInput -> False], TraditionalForm]], 
+               NCache[
+                Offset[{15, 0}, {3.187296*^9, 
+                  Rational[5, 2]}], 
+                Offset[{15, 0}, {3.187296*^9, 2.5}]], {Left, Center}, {
+               Automatic, Automatic}]}, {
+              EdgeForm[], 
+              FaceForm[], 
+              RectangleBox[
+               Offset[{0, 0}, {3.187296*^9, 2}], 
+               Offset[{0, 0}, {5.03452008*^9, 3}]]}}}},
+          
+          ImageSizeCache->{{493.7198903918971, 1002.5233066909898`}, {
+           156.3104558090101, 256.0674316909899}}],
+         "DelayedMouseEffectStyle"],
+        StyleBox[
+         TagBox[
+          GridBox[{{
+             TemplateBox[{
+               RowBox[{"\"2007\""}], 
+               RowBox[{"DateObject", "[", 
+                 RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"2007", ",", "1", ",", "1"}], "}"}], ",", 
+                   "\"Day\"", ",", "\"Gregorian\"", ",", 
+                   RowBox[{"-", "4.`"}], ",", "\"SmearedUTC\"", ",", 
+                   RowBox[{"{", "\"Year\"", "}"}]}], "]"}]}, "DateObject", 
+              Editable -> False]}}, 
+           GridBoxAlignment -> {"Columns" -> {{Right}}}, AutoDelete -> False, 
+           GridBoxItemSize -> {
+            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], {
+          GrayLevel[0.3]}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[
+         Grid[{{
+            
+            DateObject[{2007, 1, 1}, "Day", "Gregorian", -4., "SmearedUTC", {
+             "Year"}]}}, Alignment -> Right], {
+          GrayLevel[0.3]}], "Tooltip"]& ]}, 
+     {RGBColor[0.368417, 0.506779, 0.709798], AbsolutePointSize[7], 
+      AbsoluteThickness[1.6], Opacity[1], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         DynamicBox[{
+           FEPrivate`If[
+            CurrentValue["MouseOver"], 
+            Directive[
+             EdgeForm[
+              Directive[
+               RGBColor[0.368417, 0.506779, 0.709798], 
+               Thickness[Large], 
+               Opacity[0.2]]], 
+             FaceForm[{
+               RGBColor[
+               0.24561133333333335`, 0.3378526666666667, 0.4731986666666667], 
+               Opacity[1]}], 
+             CapForm["Round"], 
+             AbsoluteThickness[2.5], 
+             AbsolutePointSize[10], 
+             FrameBoxOptions -> {
+              BoxFrame -> 2.5, FrameStyle -> Automatic}], {}, {}], {{{
+              Directive[
+               Opacity[0.2]], {
+               CapForm["Round"], 
+               
+               LineBox[{{3.187296*^9, 0}, {
+                 3.187296*^9, 0}}]}}, {{}, {{{}, {}}, {{}}}}}, {{
+              CapForm["Butt"], 
+              JoinForm["Round"], 
+              LineBox[
+               NCache[{
+                 Offset[{15, 0}, {3.187296*^9, 
+                   Rational[9, 2]}], 
+                 Offset[{0, 0}, {3.187296*^9, 
+                   Rational[9, 2]}], 
+                 Offset[{0, 0}, {3.187296*^9, 3}], {3.187296*^9, 3}, {
+                 3.187296*^9, 0}}, {
+                 Offset[{15, 0}, {3.187296*^9, 4.5}], 
+                 Offset[{0, 0}, {3.187296*^9, 4.5}], 
+                 Offset[{0, 0}, {3.187296*^9, 3}], {3.187296*^9, 3}, {
+                 3.187296*^9, 0}}]], 
+              PolygonBox[
+               NCache[{
+                 Offset[{15, 5}, {3.187296*^9, 
+                   Rational[9, 2]}], 
+                 Offset[{10, 0}, {3.187296*^9, 
+                   Rational[9, 2]}], 
+                 Offset[{15, -5}, {3.187296*^9, 
+                   Rational[9, 2]}]}, {
+                 Offset[{15, 5}, {3.187296*^9, 4.5}], 
+                 Offset[{10, 0}, {3.187296*^9, 4.5}], 
+                 Offset[{15, -5}, {3.187296*^9, 4.5}]}]], 
+              InsetBox[
+               BoxData[
+                FormBox[
+                 FrameBox[
+                  StyleBox[
+                  "\"\\\"SI units\\\" and \\\"units of the SI\\\"\"", {
+                    GrayLevel[0.3]}, StripOnInput -> False], RoundingRadius -> 
+                  5, FrameMargins -> 5, Background -> GrayLevel[1], 
+                  StripOnInput -> False], TraditionalForm]], 
+               NCache[
+                Offset[{15, 0}, {3.187296*^9, 
+                  Rational[9, 2]}], 
+                Offset[{15, 0}, {3.187296*^9, 4.5}]], {Left, Center}, {
+               Automatic, Automatic}]}, {
+              EdgeForm[], 
+              FaceForm[], 
+              RectangleBox[
+               Offset[{0, 0}, {3.187296*^9, 4}], 
+               Offset[{0, 0}, {3.8522966688*^9, 5}]]}}}},
+          
+          ImageSizeCache->{{493.7198903918971, 681.0354328240376}, {
+           94.12488080901011, 256.0674316909899}}],
+         "DelayedMouseEffectStyle"],
+        StyleBox[
+         TagBox[
+          GridBox[{{
+             TemplateBox[{
+               RowBox[{"\"2001\""}], 
+               RowBox[{"DateObject", "[", 
+                 RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"2001", ",", "1", ",", "1"}], "}"}], ",", 
+                   "\"Day\"", ",", "\"Gregorian\"", ",", 
+                   RowBox[{"-", "4.`"}], ",", "\"SmearedUTC\"", ",", 
+                   RowBox[{"{", "\"Year\"", "}"}]}], "]"}]}, "DateObject", 
+              Editable -> False]}}, 
+           GridBoxAlignment -> {"Columns" -> {{Right}}}, AutoDelete -> False, 
+           GridBoxItemSize -> {
+            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], {
+          GrayLevel[0.3]}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[
+         Grid[{{
+            
+            DateObject[{2001, 1, 1}, "Day", "Gregorian", -4., "SmearedUTC", {
+             "Year"}]}}, Alignment -> Right], {
+          GrayLevel[0.3]}], "Tooltip"]& ]}, 
      {RGBColor[0.368417, 0.506779, 0.709798], AbsolutePointSize[7], 
       AbsoluteThickness[1.6], Opacity[1], 
       TagBox[
@@ -1648,28 +2192,28 @@ Cell[BoxData[
               JoinForm["Round"], 
               LineBox[
                NCache[{
-                 Offset[{20, 0}, {1.7040672*^9, 
-                   Rational[5, 2]}], 
-                 Offset[{10, 0}, {1.7040672*^9, 
-                   Rational[5, 2]}], 
-                 Offset[{10, 0}, {1.7040672*^9, 
+                 Offset[{10, 0}, {1.8933696*^9, 
+                   Rational[29, 2]}], 
+                 Offset[{0, 0}, {1.8933696*^9, 
+                   Rational[29, 2]}], 
+                 Offset[{0, 0}, {1.8933696*^9, 
                    Rational[3, 2]}], {1.8933696*^9, 
                   Rational[3, 2]}, {1.8933696*^9, 0}}, {
-                 Offset[{20, 0}, {1.7040672*^9, 2.5}], 
-                 Offset[{10, 0}, {1.7040672*^9, 2.5}], 
-                 Offset[{10, 0}, {1.7040672*^9, 1.5}], {1.8933696*^9, 1.5}, {
+                 Offset[{10, 0}, {1.8933696*^9, 14.5}], 
+                 Offset[{0, 0}, {1.8933696*^9, 14.5}], 
+                 Offset[{0, 0}, {1.8933696*^9, 1.5}], {1.8933696*^9, 1.5}, {
                  1.8933696*^9, 0}}]], 
               PolygonBox[
                NCache[{
-                 Offset[{20, 5}, {1.7040672*^9, 
-                   Rational[5, 2]}], 
-                 Offset[{15, 0}, {1.7040672*^9, 
-                   Rational[5, 2]}], 
-                 Offset[{20, -5}, {1.7040672*^9, 
-                   Rational[5, 2]}]}, {
-                 Offset[{20, 5}, {1.7040672*^9, 2.5}], 
-                 Offset[{15, 0}, {1.7040672*^9, 2.5}], 
-                 Offset[{20, -5}, {1.7040672*^9, 2.5}]}]], 
+                 Offset[{10, 5}, {1.8933696*^9, 
+                   Rational[29, 2]}], 
+                 Offset[{5, 0}, {1.8933696*^9, 
+                   Rational[29, 2]}], 
+                 Offset[{10, -5}, {1.8933696*^9, 
+                   Rational[29, 2]}]}, {
+                 Offset[{10, 5}, {1.8933696*^9, 14.5}], 
+                 Offset[{5, 0}, {1.8933696*^9, 14.5}], 
+                 Offset[{10, -5}, {1.8933696*^9, 14.5}]}]], 
               InsetBox[
                BoxData[
                 FormBox[
@@ -1680,18 +2224,321 @@ Cell[BoxData[
                   5, FrameMargins -> 5, Background -> GrayLevel[1], 
                   StripOnInput -> False], TraditionalForm]], 
                NCache[
-                Offset[{20, 0}, {1.7040672*^9, 
-                  Rational[5, 2]}], 
-                Offset[{20, 0}, {1.7040672*^9, 2.5}]], {Left, Center}, {
+                Offset[{10, 0}, {1.8933696*^9, 
+                  Rational[29, 2]}], 
+                Offset[{10, 0}, {1.8933696*^9, 14.5}]], {Left, Center}, {
                Automatic, Automatic}]}, {
               EdgeForm[], 
               FaceForm[], 
               RectangleBox[
-               Offset[{0, 0}, {1.7040672*^9, 2}], 
-               Offset[{0, 0}, {1.85392950876*^9, 3}]]}}}},
+               Offset[{0, 0}, {1.8933696*^9, 14}], 
+               Offset[{0, 0}, {2.79481495104*^9, 15}]]}}}},
+          ImageSizeCache->{{141.85606893865491`, 
+           393.4691861441858}, {-216.80299419098992`, 256.0674316909899}}],
+         "DelayedMouseEffectStyle"],
+        StyleBox[
+         TagBox[
+          GridBox[{{
+             TemplateBox[{
+               RowBox[{"\"1960\""}], 
+               RowBox[{"DateObject", "[", 
+                 RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"1960", ",", "1", ",", "1"}], "}"}], ",", 
+                   "\"Day\"", ",", "\"Gregorian\"", ",", 
+                   RowBox[{"-", "4.`"}], ",", "\"SmearedUTC\"", ",", 
+                   RowBox[{"{", "\"Year\"", "}"}]}], "]"}]}, "DateObject", 
+              Editable -> False]}}, 
+           GridBoxAlignment -> {"Columns" -> {{Right}}}, AutoDelete -> False, 
+           GridBoxItemSize -> {
+            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], {
+          GrayLevel[0.3]}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[
+         Grid[{{
+            
+            DateObject[{1960, 1, 1}, "Day", "Gregorian", -4., "SmearedUTC", {
+             "Year"}]}}, Alignment -> Right], {
+          GrayLevel[0.3]}], "Tooltip"]& ]}, 
+     {RGBColor[0.368417, 0.506779, 0.709798], AbsolutePointSize[7], 
+      AbsoluteThickness[1.6], Opacity[1], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         DynamicBox[{
+           FEPrivate`If[
+            CurrentValue["MouseOver"], 
+            Directive[
+             EdgeForm[
+              Directive[
+               RGBColor[0.368417, 0.506779, 0.709798], 
+               Thickness[Large], 
+               Opacity[0.2]]], 
+             FaceForm[{
+               RGBColor[
+               0.24561133333333335`, 0.3378526666666667, 0.4731986666666667], 
+               Opacity[1]}], 
+             CapForm["Round"], 
+             AbsoluteThickness[2.5], 
+             AbsolutePointSize[10], 
+             FrameBoxOptions -> {
+              BoxFrame -> 2.5, FrameStyle -> Automatic}], {}, {}], {{{
+              Directive[
+               Opacity[0.2]], {
+               CapForm["Round"], 
+               
+               LineBox[{{1.8933696*^9, 0}, {
+                 1.8933696*^9, 0}}]}}, {{}, {{{}, {}}, {{}}}}}, {{
+              CapForm["Butt"], 
+              JoinForm["Round"], 
+              LineBox[
+               NCache[{
+                 Offset[{10, 0}, {1.8933696*^9, 
+                   Rational[25, 2]}], 
+                 Offset[{0, 0}, {1.8933696*^9, 
+                   Rational[25, 2]}], 
+                 Offset[{0, 0}, {1.8933696*^9, 
+                   Rational[3, 2]}], {1.8933696*^9, 
+                  Rational[3, 2]}, {1.8933696*^9, 0}}, {
+                 Offset[{10, 0}, {1.8933696*^9, 12.5}], 
+                 Offset[{0, 0}, {1.8933696*^9, 12.5}], 
+                 Offset[{0, 0}, {1.8933696*^9, 1.5}], {1.8933696*^9, 1.5}, {
+                 1.8933696*^9, 0}}]], 
+              PolygonBox[
+               NCache[{
+                 Offset[{10, 5}, {1.8933696*^9, 
+                   Rational[25, 2]}], 
+                 Offset[{5, 0}, {1.8933696*^9, 
+                   Rational[25, 2]}], 
+                 Offset[{10, -5}, {1.8933696*^9, 
+                   Rational[25, 2]}]}, {
+                 Offset[{10, 5}, {1.8933696*^9, 12.5}], 
+                 Offset[{5, 0}, {1.8933696*^9, 12.5}], 
+                 Offset[{10, -5}, {1.8933696*^9, 12.5}]}]], 
+              InsetBox[
+               BoxData[
+                FormBox[
+                 FrameBox[
+                  StyleBox["\"names prefixes from tera to pico\"", {
+                    GrayLevel[0.3]}, StripOnInput -> False], RoundingRadius -> 
+                  5, FrameMargins -> 5, Background -> GrayLevel[1], 
+                  StripOnInput -> False], TraditionalForm]], 
+               NCache[
+                Offset[{10, 0}, {1.8933696*^9, 
+                  Rational[25, 2]}], 
+                Offset[{10, 0}, {1.8933696*^9, 12.5}]], {Left, Center}, {
+               Automatic, Automatic}]}, {
+              EdgeForm[], 
+              FaceForm[], 
+              RectangleBox[
+               Offset[{0, 0}, {1.8933696*^9, 12}], 
+               Offset[{0, 0}, {2.61748143936*^9, 13}]]}}}},
           
-          ImageSizeCache->{{276.395147842441, 525.957269382609}, {
-           6.260745392343409, 73.06743169098989}}],
+          ImageSizeCache->{{141.85606893865491`, 
+           345.24600506414305`}, {-154.61741919098995`, 256.0674316909899}}],
+         "DelayedMouseEffectStyle"],
+        StyleBox[
+         TagBox[
+          GridBox[{{
+             TemplateBox[{
+               RowBox[{"\"1960\""}], 
+               RowBox[{"DateObject", "[", 
+                 RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"1960", ",", "1", ",", "1"}], "}"}], ",", 
+                   "\"Day\"", ",", "\"Gregorian\"", ",", 
+                   RowBox[{"-", "4.`"}], ",", "\"SmearedUTC\"", ",", 
+                   RowBox[{"{", "\"Year\"", "}"}]}], "]"}]}, "DateObject", 
+              Editable -> False]}}, 
+           GridBoxAlignment -> {"Columns" -> {{Right}}}, AutoDelete -> False, 
+           GridBoxItemSize -> {
+            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], {
+          GrayLevel[0.3]}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[
+         Grid[{{
+            
+            DateObject[{1960, 1, 1}, "Day", "Gregorian", -4., "SmearedUTC", {
+             "Year"}]}}, Alignment -> Right], {
+          GrayLevel[0.3]}], "Tooltip"]& ]}, 
+     {RGBColor[0.368417, 0.506779, 0.709798], AbsolutePointSize[7], 
+      AbsoluteThickness[1.6], Opacity[1], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         DynamicBox[{
+           FEPrivate`If[
+            CurrentValue["MouseOver"], 
+            Directive[
+             EdgeForm[
+              Directive[
+               RGBColor[0.368417, 0.506779, 0.709798], 
+               Thickness[Large], 
+               Opacity[0.2]]], 
+             FaceForm[{
+               RGBColor[
+               0.24561133333333335`, 0.3378526666666667, 0.4731986666666667], 
+               Opacity[1]}], 
+             CapForm["Round"], 
+             AbsoluteThickness[2.5], 
+             AbsolutePointSize[10], 
+             FrameBoxOptions -> {
+              BoxFrame -> 2.5, FrameStyle -> Automatic}], {}, {}], {{{
+              Directive[
+               Opacity[0.2]], {
+               CapForm["Round"], 
+               
+               LineBox[{{1.8933696*^9, 0}, {
+                 1.8933696*^9, 0}}]}}, {{}, {{{}, {}}, {{}}}}}, {{
+              CapForm["Butt"], 
+              JoinForm["Round"], 
+              LineBox[
+               NCache[{
+                 Offset[{10, 0}, {1.8933696*^9, 
+                   Rational[21, 2]}], 
+                 Offset[{0, 0}, {1.8933696*^9, 
+                   Rational[21, 2]}], 
+                 Offset[{0, 0}, {1.8933696*^9, 
+                   Rational[3, 2]}], {1.8933696*^9, 
+                  Rational[3, 2]}, {1.8933696*^9, 0}}, {
+                 Offset[{10, 0}, {1.8933696*^9, 10.5}], 
+                 Offset[{0, 0}, {1.8933696*^9, 10.5}], 
+                 Offset[{0, 0}, {1.8933696*^9, 1.5}], {1.8933696*^9, 1.5}, {
+                 1.8933696*^9, 0}}]], 
+              PolygonBox[
+               NCache[{
+                 Offset[{10, 5}, {1.8933696*^9, 
+                   Rational[21, 2]}], 
+                 Offset[{5, 0}, {1.8933696*^9, 
+                   Rational[21, 2]}], 
+                 Offset[{10, -5}, {1.8933696*^9, 
+                   Rational[21, 2]}]}, {
+                 Offset[{10, 5}, {1.8933696*^9, 10.5}], 
+                 Offset[{5, 0}, {1.8933696*^9, 10.5}], 
+                 Offset[{10, -5}, {1.8933696*^9, 10.5}]}]], 
+              InsetBox[
+               BoxData[
+                FormBox[
+                 FrameBox[
+                  StyleBox[
+                  "\"establishes the supplementary units rad and sr\"", {
+                    GrayLevel[0.3]}, StripOnInput -> False], RoundingRadius -> 
+                  5, FrameMargins -> 5, Background -> GrayLevel[1], 
+                  StripOnInput -> False], TraditionalForm]], 
+               NCache[
+                Offset[{10, 0}, {1.8933696*^9, 
+                  Rational[21, 2]}], 
+                Offset[{10, 0}, {1.8933696*^9, 10.5}]], {Left, Center}, {
+               Automatic, Automatic}]}, {
+              EdgeForm[], 
+              FaceForm[], 
+              RectangleBox[
+               Offset[{0, 0}, {1.8933696*^9, 10}], 
+               Offset[{0, 0}, {2.9327410156800003`*^9, 11}]]}}}},
+          
+          ImageSizeCache->{{141.85606893865491`, 
+           430.9761047619971}, {-92.43184419098998, 256.0674316909899}}],
+         "DelayedMouseEffectStyle"],
+        StyleBox[
+         TagBox[
+          GridBox[{{
+             TemplateBox[{
+               RowBox[{"\"1960\""}], 
+               RowBox[{"DateObject", "[", 
+                 RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"1960", ",", "1", ",", "1"}], "}"}], ",", 
+                   "\"Day\"", ",", "\"Gregorian\"", ",", 
+                   RowBox[{"-", "4.`"}], ",", "\"SmearedUTC\"", ",", 
+                   RowBox[{"{", "\"Year\"", "}"}]}], "]"}]}, "DateObject", 
+              Editable -> False]}}, 
+           GridBoxAlignment -> {"Columns" -> {{Right}}}, AutoDelete -> False, 
+           GridBoxItemSize -> {
+            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], {
+          GrayLevel[0.3]}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[
+         Grid[{{
+            
+            DateObject[{1960, 1, 1}, "Day", "Gregorian", -4., "SmearedUTC", {
+             "Year"}]}}, Alignment -> Right], {
+          GrayLevel[0.3]}], "Tooltip"]& ]}, 
+     {RGBColor[0.368417, 0.506779, 0.709798], AbsolutePointSize[7], 
+      AbsoluteThickness[1.6], Opacity[1], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         DynamicBox[{
+           FEPrivate`If[
+            CurrentValue["MouseOver"], 
+            Directive[
+             EdgeForm[
+              Directive[
+               RGBColor[0.368417, 0.506779, 0.709798], 
+               Thickness[Large], 
+               Opacity[0.2]]], 
+             FaceForm[{
+               RGBColor[
+               0.24561133333333335`, 0.3378526666666667, 0.4731986666666667], 
+               Opacity[1]}], 
+             CapForm["Round"], 
+             AbsoluteThickness[2.5], 
+             AbsolutePointSize[10], 
+             FrameBoxOptions -> {
+              BoxFrame -> 2.5, FrameStyle -> Automatic}], {}, {}], {{{
+              Directive[
+               Opacity[0.2]], {
+               CapForm["Round"], 
+               
+               LineBox[{{1.8933696*^9, 0}, {
+                 1.8933696*^9, 0}}]}}, {{}, {{{}, {}}, {{}}}}}, {{
+              CapForm["Butt"], 
+              JoinForm["Round"], 
+              LineBox[
+               NCache[{
+                 Offset[{10, 0}, {1.8933696*^9, 
+                   Rational[17, 2]}], 
+                 Offset[{0, 0}, {1.8933696*^9, 
+                   Rational[17, 2]}], 
+                 Offset[{0, 0}, {1.8933696*^9, 
+                   Rational[3, 2]}], {1.8933696*^9, 
+                  Rational[3, 2]}, {1.8933696*^9, 0}}, {
+                 Offset[{10, 0}, {1.8933696*^9, 8.5}], 
+                 Offset[{0, 0}, {1.8933696*^9, 8.5}], 
+                 Offset[{0, 0}, {1.8933696*^9, 1.5}], {1.8933696*^9, 1.5}, {
+                 1.8933696*^9, 0}}]], 
+              PolygonBox[
+               NCache[{
+                 Offset[{10, 5}, {1.8933696*^9, 
+                   Rational[17, 2]}], 
+                 Offset[{5, 0}, {1.8933696*^9, 
+                   Rational[17, 2]}], 
+                 Offset[{10, -5}, {1.8933696*^9, 
+                   Rational[17, 2]}]}, {
+                 Offset[{10, 5}, {1.8933696*^9, 8.5}], 
+                 Offset[{5, 0}, {1.8933696*^9, 8.5}], 
+                 Offset[{10, -5}, {1.8933696*^9, 8.5}]}]], 
+              InsetBox[
+               BoxData[
+                FormBox[
+                 FrameBox[
+                  StyleBox["\"lists some derived units\"", {
+                    GrayLevel[0.3]}, StripOnInput -> False], RoundingRadius -> 
+                  5, FrameMargins -> 5, Background -> GrayLevel[1], 
+                  StripOnInput -> False], TraditionalForm]], 
+               NCache[
+                Offset[{10, 0}, {1.8933696*^9, 
+                  Rational[17, 2]}], 
+                Offset[{10, 0}, {1.8933696*^9, 8.5}]], {Left, Center}, {
+               Automatic, Automatic}]}, {
+              EdgeForm[], 
+              FaceForm[], 
+              RectangleBox[
+               Offset[{0, 0}, {1.8933696*^9, 8}], 
+               Offset[{0, 0}, {2.42537013504*^9, 9}]]}}}},
+          
+          ImageSizeCache->{{141.85606893865491`, 
+           293.00422556076325`}, {-30.246269190989892`, 256.0674316909899}}],
          "DelayedMouseEffectStyle"],
         StyleBox[
          TagBox[
@@ -1750,28 +2597,28 @@ Cell[BoxData[
               JoinForm["Round"], 
               LineBox[
                NCache[{
-                 Offset[{20, 0}, {1.7040672*^9, 
-                   Rational[9, 2]}], 
-                 Offset[{5, 0}, {1.7040672*^9, 
-                   Rational[9, 2]}], 
-                 Offset[{5, 0}, {1.7040672*^9, 
-                   Rational[3, 4]}], {1.7671392*^9, 
-                  Rational[3, 4]}, {1.7671392*^9, 0}}, {
-                 Offset[{20, 0}, {1.7040672*^9, 4.5}], 
-                 Offset[{5, 0}, {1.7040672*^9, 4.5}], 
-                 Offset[{5, 0}, {1.7040672*^9, 0.75}], {1.7671392*^9, 0.75}, {
+                 Offset[{20, 0}, {1.5146784*^9, 
+                   Rational[5, 2]}], 
+                 Offset[{10, 0}, {1.5146784*^9, 
+                   Rational[5, 2]}], 
+                 Offset[{10, 0}, {1.5146784*^9, 
+                   Rational[3, 2]}], {1.7671392*^9, 
+                  Rational[3, 2]}, {1.7671392*^9, 0}}, {
+                 Offset[{20, 0}, {1.5146784*^9, 2.5}], 
+                 Offset[{10, 0}, {1.5146784*^9, 2.5}], 
+                 Offset[{10, 0}, {1.5146784*^9, 1.5}], {1.7671392*^9, 1.5}, {
                  1.7671392*^9, 0}}]], 
               PolygonBox[
                NCache[{
-                 Offset[{20, 5}, {1.7040672*^9, 
-                   Rational[9, 2]}], 
-                 Offset[{15, 0}, {1.7040672*^9, 
-                   Rational[9, 2]}], 
-                 Offset[{20, -5}, {1.7040672*^9, 
-                   Rational[9, 2]}]}, {
-                 Offset[{20, 5}, {1.7040672*^9, 4.5}], 
-                 Offset[{15, 0}, {1.7040672*^9, 4.5}], 
-                 Offset[{20, -5}, {1.7040672*^9, 4.5}]}]], 
+                 Offset[{20, 5}, {1.5146784*^9, 
+                   Rational[5, 2]}], 
+                 Offset[{15, 0}, {1.5146784*^9, 
+                   Rational[5, 2]}], 
+                 Offset[{20, -5}, {1.5146784*^9, 
+                   Rational[5, 2]}]}, {
+                 Offset[{20, 5}, {1.5146784*^9, 2.5}], 
+                 Offset[{15, 0}, {1.5146784*^9, 2.5}], 
+                 Offset[{20, -5}, {1.5146784*^9, 2.5}]}]], 
               InsetBox[
                BoxData[
                 FormBox[
@@ -1784,18 +2631,18 @@ Cell[BoxData[
                   5, FrameMargins -> 5, Background -> GrayLevel[1], 
                   StripOnInput -> False], TraditionalForm]], 
                NCache[
-                Offset[{20, 0}, {1.7040672*^9, 
-                  Rational[9, 2]}], 
-                Offset[{20, 0}, {1.7040672*^9, 4.5}]], {Left, Center}, {
+                Offset[{20, 0}, {1.5146784*^9, 
+                  Rational[5, 2]}], 
+                Offset[{20, 0}, {1.5146784*^9, 2.5}]], {Left, Center}, {
                Automatic, Automatic}]}, {
               EdgeForm[], 
               FaceForm[], 
               RectangleBox[
-               Offset[{0, 0}, {1.7040672*^9, 4}], 
-               Offset[{0, 0}, {1.9251755244*^9, 5}]]}}}},
+               Offset[{0, 0}, {1.5146784*^9, 2}], 
+               Offset[{0, 0}, {2.8446797376000004`*^9, 3}]]}}}},
           
-          ImageSizeCache->{{276.395147842441, 
-           580.8737612244208}, {-31.201712940989907`, 73.06743169098989}}],
+          ImageSizeCache->{{38.87669330901019, 407.0291647913114}, {
+           156.3104558090101, 256.0674316909899}}],
          "DelayedMouseEffectStyle"],
         StyleBox[
          TagBox[
@@ -1854,27 +2701,28 @@ Cell[BoxData[
               JoinForm["Round"], 
               LineBox[
                NCache[{
-                 Offset[{20, 0}, {1.7040672*^9, 
-                   Rational[13, 2]}], 
-                 Offset[{0, 0}, {1.7040672*^9, 
-                   Rational[13, 2]}], 
-                 Offset[{0, 0}, {1.7040672*^9, 3}], {1.7040672*^9, 3}, {
-                 1.7040672*^9, 0}}, {
-                 Offset[{20, 0}, {1.7040672*^9, 6.5}], 
-                 Offset[{0, 0}, {1.7040672*^9, 6.5}], 
-                 Offset[{0, 0}, {1.7040672*^9, 3}], {1.7040672*^9, 3}, {
+                 Offset[{20, 0}, {1.5146784*^9, 
+                   Rational[9, 2]}], 
+                 Offset[{5, 0}, {1.5146784*^9, 
+                   Rational[9, 2]}], 
+                 Offset[{5, 0}, {1.5146784*^9, 
+                   Rational[3, 4]}], {1.7040672*^9, 
+                  Rational[3, 4]}, {1.7040672*^9, 0}}, {
+                 Offset[{20, 0}, {1.5146784*^9, 4.5}], 
+                 Offset[{5, 0}, {1.5146784*^9, 4.5}], 
+                 Offset[{5, 0}, {1.5146784*^9, 0.75}], {1.7040672*^9, 0.75}, {
                  1.7040672*^9, 0}}]], 
               PolygonBox[
                NCache[{
-                 Offset[{20, 5}, {1.7040672*^9, 
-                   Rational[13, 2]}], 
-                 Offset[{15, 0}, {1.7040672*^9, 
-                   Rational[13, 2]}], 
-                 Offset[{20, -5}, {1.7040672*^9, 
-                   Rational[13, 2]}]}, {
-                 Offset[{20, 5}, {1.7040672*^9, 6.5}], 
-                 Offset[{15, 0}, {1.7040672*^9, 6.5}], 
-                 Offset[{20, -5}, {1.7040672*^9, 6.5}]}]], 
+                 Offset[{20, 5}, {1.5146784*^9, 
+                   Rational[9, 2]}], 
+                 Offset[{15, 0}, {1.5146784*^9, 
+                   Rational[9, 2]}], 
+                 Offset[{20, -5}, {1.5146784*^9, 
+                   Rational[9, 2]}]}, {
+                 Offset[{20, 5}, {1.5146784*^9, 4.5}], 
+                 Offset[{15, 0}, {1.5146784*^9, 4.5}], 
+                 Offset[{20, -5}, {1.5146784*^9, 4.5}]}]], 
               InsetBox[
                BoxData[
                 FormBox[
@@ -1884,18 +2732,18 @@ Cell[BoxData[
                   5, FrameMargins -> 5, Background -> GrayLevel[1], 
                   StripOnInput -> False], TraditionalForm]], 
                NCache[
-                Offset[{20, 0}, {1.7040672*^9, 
-                  Rational[13, 2]}], 
-                Offset[{20, 0}, {1.7040672*^9, 6.5}]], {Left, Center}, {
+                Offset[{20, 0}, {1.5146784*^9, 
+                  Rational[9, 2]}], 
+                Offset[{20, 0}, {1.5146784*^9, 4.5}]], {Left, Center}, {
                Automatic, Automatic}]}, {
               EdgeForm[], 
               FaceForm[], 
               RectangleBox[
-               Offset[{0, 0}, {1.7040672*^9, 6}], 
-               Offset[{0, 0}, {1.83181867632*^9, 7}]]}}}},
+               Offset[{0, 0}, {1.5146784*^9, 4}], 
+               Offset[{0, 0}, {2.28312361728*^9, 5}]]}}}},
           
-          ImageSizeCache->{{276.395147842441, 
-           466.87376122442083`}, {-68.66417127432324, 73.06743169098989}}],
+          ImageSizeCache->{{38.87669330901019, 254.32242470450905`}, {
+           94.12488080901011, 256.0674316909899}}],
          "DelayedMouseEffectStyle"],
         StyleBox[
          TagBox[
@@ -1954,28 +2802,27 @@ Cell[BoxData[
               JoinForm["Round"], 
               LineBox[
                NCache[{
-                 Offset[{10, 0}, {1.5146784*^9, 
-                   Rational[5, 2]}], 
+                 Offset[{20, 0}, {1.5146784*^9, 
+                   Rational[13, 2]}], 
                  Offset[{0, 0}, {1.5146784*^9, 
-                   Rational[5, 2]}], 
-                 Offset[{0, 0}, {1.5146784*^9, 
-                   Rational[3, 2]}], {1.5146784*^9, 
-                  Rational[3, 2]}, {1.5146784*^9, 0}}, {
-                 Offset[{10, 0}, {1.5146784*^9, 2.5}], 
-                 Offset[{0, 0}, {1.5146784*^9, 2.5}], 
-                 Offset[{0, 0}, {1.5146784*^9, 1.5}], {1.5146784*^9, 1.5}, {
+                   Rational[13, 2]}], 
+                 Offset[{0, 0}, {1.5146784*^9, 3}], {1.5146784*^9, 3}, {
+                 1.5146784*^9, 0}}, {
+                 Offset[{20, 0}, {1.5146784*^9, 6.5}], 
+                 Offset[{0, 0}, {1.5146784*^9, 6.5}], 
+                 Offset[{0, 0}, {1.5146784*^9, 3}], {1.5146784*^9, 3}, {
                  1.5146784*^9, 0}}]], 
               PolygonBox[
                NCache[{
-                 Offset[{10, 5}, {1.5146784*^9, 
-                   Rational[5, 2]}], 
-                 Offset[{5, 0}, {1.5146784*^9, 
-                   Rational[5, 2]}], 
-                 Offset[{10, -5}, {1.5146784*^9, 
-                   Rational[5, 2]}]}, {
-                 Offset[{10, 5}, {1.5146784*^9, 2.5}], 
-                 Offset[{5, 0}, {1.5146784*^9, 2.5}], 
-                 Offset[{10, -5}, {1.5146784*^9, 2.5}]}]], 
+                 Offset[{20, 5}, {1.5146784*^9, 
+                   Rational[13, 2]}], 
+                 Offset[{15, 0}, {1.5146784*^9, 
+                   Rational[13, 2]}], 
+                 Offset[{20, -5}, {1.5146784*^9, 
+                   Rational[13, 2]}]}, {
+                 Offset[{20, 5}, {1.5146784*^9, 6.5}], 
+                 Offset[{15, 0}, {1.5146784*^9, 6.5}], 
+                 Offset[{20, -5}, {1.5146784*^9, 6.5}]}]], 
               InsetBox[
                BoxData[
                 FormBox[
@@ -1985,18 +2832,18 @@ Cell[BoxData[
                   5, FrameMargins -> 5, Background -> GrayLevel[1], 
                   StripOnInput -> False], TraditionalForm]], 
                NCache[
-                Offset[{10, 0}, {1.5146784*^9, 
-                  Rational[5, 2]}], 
-                Offset[{10, 0}, {1.5146784*^9, 2.5}]], {Left, Center}, {
+                Offset[{20, 0}, {1.5146784*^9, 
+                  Rational[13, 2]}], 
+                Offset[{20, 0}, {1.5146784*^9, 6.5}]], {Left, Center}, {
                Automatic, Automatic}]}, {
               EdgeForm[], 
               FaceForm[], 
               RectangleBox[
-               Offset[{0, 0}, {1.5146784*^9, 2}], 
-               Offset[{0, 0}, {1.617043365*^9, 3}]]}}}},
+               Offset[{0, 0}, {1.5146784*^9, 6}], 
+               Offset[{0, 0}, {2.13041976*^9, 7}]]}}}},
           
-          ImageSizeCache->{{33.20069330901015, 182.67930669098996`}, {
-           6.260745392343409, 73.06743169098989}}],
+          ImageSizeCache->{{38.87669330901019, 212.79690766336097`}, {
+           31.93930580901008, 256.0674316909899}}],
          "DelayedMouseEffectStyle"],
         StyleBox[
          TagBox[
@@ -2021,9 +2868,11 @@ Cell[BoxData[
             
             DateObject[{1948, 1, 1}, "Day", "Gregorian", -4., "SmearedUTC", {
              "Year"}]}}, Alignment -> Right], {
-          GrayLevel[0.3]}], "Tooltip"]& ]}}, {{{}, {}, {}, {}}, {}}}, {}, {}},
+          GrayLevel[0.3]}], 
+        "Tooltip"]& ]}}, {{{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}}, \
+{}}}, {}, {}},
   AspectRatio->NCache[
-    Rational[79, 300], 0.2633333333333333],
+    Rational[151, 300], 0.5033333333333333],
   Axes->{False, False},
   AxesOrigin->{0, 0},
   Frame->{{None, None}, {True, None}},
@@ -2033,156 +2882,207 @@ Cell[BoxData[
        (Map[DateList, {
          SlotSequence[1]}]& )[
         SlotSequence[1]], None, 7, {{0.01, 0}, {0.005, 0}}, Automatic]& , 
-      Automatic}}, {{None, None}, {{{1.4516064*^9, 
-        FormBox["\"1946\"", TraditionalForm], {0.006666666666666666, 0}}, {
-       1.5146784*^9, 
-        FormBox["\"1948\"", TraditionalForm], {0.006666666666666666, 0}}, {
-       1.5778368*^9, 
-        FormBox["\"1950\"", TraditionalForm], {0.006666666666666666, 0}}, {
-       1.6409088*^9, 
-        FormBox["\"1952\"", TraditionalForm], {0.006666666666666666, 0}}, {
-       1.7040672*^9, 
-        FormBox["\"1954\"", TraditionalForm], {0.006666666666666666, 0}}, {
-       1.7671392*^9, 
-        FormBox["\"1956\"", TraditionalForm], {0.006666666666666666, 0}}, {
-       1.8302976*^9, 
-        FormBox["\"1958\"", TraditionalForm], {0.006666666666666666, 0}}, {
+      Automatic}}, {{None, None}, {{{1.2622176*^9, 
+        FormBox["\"1940\"", TraditionalForm], {0.006666666666666666, 0}}, {
        1.8933696*^9, 
         FormBox["\"1960\"", TraditionalForm], {0.006666666666666666, 0}}, {
-       1.956528*^9, 
-        FormBox["\"1962\"", TraditionalForm], {0.006666666666666666, 0}}, {
-       1.4516064*^9, 
+       2.5245216*^9, 
+        FormBox["\"1980\"", TraditionalForm], {0.006666666666666666, 0}}, {
+       3.1556736*^9, 
+        FormBox["\"2000\"", TraditionalForm], {0.006666666666666666, 0}}, {
+       3.7868256*^9, 
+        FormBox["\"2020\"", TraditionalForm], {0.006666666666666666, 0}}, {
+       4.4179776*^9, 
+        FormBox["\"2040\"", TraditionalForm], {0.006666666666666666, 0}}, {
+       5.0491296*^9, 
+        FormBox["\"2060\"", TraditionalForm], {0.006666666666666666, 0}}, {
+       5.6802816*^9, 
+        FormBox["\"2080\"", TraditionalForm], {0.006666666666666666, 0}}, {
+       1.2622176*^9, 
         FormBox[
          TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-        0.006666666666666666, 0}}, {1.4831424*^9, 
-        FormBox[
-         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-        0.006666666666666666, 0}}, {1.5146784*^9, 
-        FormBox[
-         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-        0.006666666666666666, 0}}, {1.5463008*^9, 
+        0.006666666666666666, 0}}, {1.4200704*^9, 
         FormBox[
          TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
         0.006666666666666666, 0}}, {1.5778368*^9, 
         FormBox[
          TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-        0.006666666666666666, 0}}, {1.6093728*^9, 
-        FormBox[
-         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-        0.006666666666666666, 0}}, {1.6409088*^9, 
-        FormBox[
-         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-        0.006666666666666666, 0}}, {1.6725312*^9, 
-        FormBox[
-         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-        0.006666666666666666, 0}}, {1.7040672*^9, 
-        FormBox[
-         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
         0.006666666666666666, 0}}, {1.7356032*^9, 
-        FormBox[
-         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-        0.006666666666666666, 0}}, {1.7671392*^9, 
-        FormBox[
-         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-        0.006666666666666666, 0}}, {1.7987616*^9, 
-        FormBox[
-         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-        0.006666666666666666, 0}}, {1.8302976*^9, 
-        FormBox[
-         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-        0.006666666666666666, 0}}, {1.8618336*^9, 
         FormBox[
          TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
         0.006666666666666666, 0}}, {1.8933696*^9, 
         FormBox[
          TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-        0.006666666666666666, 0}}, {1.924992*^9, 
+        0.006666666666666666, 0}}, {2.0512224*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {2.2089888*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {2.3667552*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {2.5245216*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {2.6823744*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {2.8401408*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {2.9979072*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {3.1556736*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {3.3135264*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {3.4712928*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {3.6290592*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {3.7868256*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {3.9446784*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {4.1024448*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {4.2602112*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {4.4179776*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {4.5758304*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {4.7335968*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {4.8913632*^9, 
+        FormBox[
+         TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+        0.006666666666666666, 0}}, {5.0491296*^9, 
         FormBox[
          TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
         0.006666666666666666, 0}}}, Automatic}}],
   GridLines->{None, None},
   ImagePadding->All,
-  ImageSize->{600, Automatic},
+  ImageSize->{Full, Automatic},
   PlotRange->{{All, All}, {0, All}},
   PlotRangePadding->{{
-     Scaled[0.06], 
-     Scaled[0.06]}, {None, 
+     Scaled[0.04], 
+     Scaled[0.04]}, {None, 
      Scaled[0.05]}},
-  Ticks->{{{1.4516064*^9, 
-      FormBox["\"1946\"", TraditionalForm], {0.006666666666666666, 0}}, {
-     1.5146784*^9, 
-      FormBox["\"1948\"", TraditionalForm], {0.006666666666666666, 0}}, {
-     1.5778368*^9, 
-      FormBox["\"1950\"", TraditionalForm], {0.006666666666666666, 0}}, {
-     1.6409088*^9, 
-      FormBox["\"1952\"", TraditionalForm], {0.006666666666666666, 0}}, {
-     1.7040672*^9, 
-      FormBox["\"1954\"", TraditionalForm], {0.006666666666666666, 0}}, {
-     1.7671392*^9, 
-      FormBox["\"1956\"", TraditionalForm], {0.006666666666666666, 0}}, {
-     1.8302976*^9, 
-      FormBox["\"1958\"", TraditionalForm], {0.006666666666666666, 0}}, {
+  Ticks->{{{1.2622176*^9, 
+      FormBox["\"1940\"", TraditionalForm], {0.006666666666666666, 0}}, {
      1.8933696*^9, 
       FormBox["\"1960\"", TraditionalForm], {0.006666666666666666, 0}}, {
-     1.956528*^9, 
-      FormBox["\"1962\"", TraditionalForm], {0.006666666666666666, 0}}, {
-     1.4516064*^9, 
+     2.5245216*^9, 
+      FormBox["\"1980\"", TraditionalForm], {0.006666666666666666, 0}}, {
+     3.1556736*^9, 
+      FormBox["\"2000\"", TraditionalForm], {0.006666666666666666, 0}}, {
+     3.7868256*^9, 
+      FormBox["\"2020\"", TraditionalForm], {0.006666666666666666, 0}}, {
+     4.4179776*^9, 
+      FormBox["\"2040\"", TraditionalForm], {0.006666666666666666, 0}}, {
+     5.0491296*^9, 
+      FormBox["\"2060\"", TraditionalForm], {0.006666666666666666, 0}}, {
+     5.6802816*^9, 
+      FormBox["\"2080\"", TraditionalForm], {0.006666666666666666, 0}}, {
+     1.2622176*^9, 
       FormBox[
        TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-      0.006666666666666666, 0}}, {1.4831424*^9, 
-      FormBox[
-       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-      0.006666666666666666, 0}}, {1.5146784*^9, 
-      FormBox[
-       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-      0.006666666666666666, 0}}, {1.5463008*^9, 
+      0.006666666666666666, 0}}, {1.4200704*^9, 
       FormBox[
        TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
       0.006666666666666666, 0}}, {1.5778368*^9, 
       FormBox[
        TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-      0.006666666666666666, 0}}, {1.6093728*^9, 
-      FormBox[
-       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-      0.006666666666666666, 0}}, {1.6409088*^9, 
-      FormBox[
-       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-      0.006666666666666666, 0}}, {1.6725312*^9, 
-      FormBox[
-       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-      0.006666666666666666, 0}}, {1.7040672*^9, 
-      FormBox[
-       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
       0.006666666666666666, 0}}, {1.7356032*^9, 
-      FormBox[
-       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-      0.006666666666666666, 0}}, {1.7671392*^9, 
-      FormBox[
-       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-      0.006666666666666666, 0}}, {1.7987616*^9, 
-      FormBox[
-       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-      0.006666666666666666, 0}}, {1.8302976*^9, 
-      FormBox[
-       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-      0.006666666666666666, 0}}, {1.8618336*^9, 
       FormBox[
        TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
       0.006666666666666666, 0}}, {1.8933696*^9, 
       FormBox[
        TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
-      0.006666666666666666, 0}}, {1.924992*^9, 
+      0.006666666666666666, 0}}, {2.0512224*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {2.2089888*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {2.3667552*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {2.5245216*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {2.6823744*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {2.8401408*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {2.9979072*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {3.1556736*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {3.3135264*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {3.4712928*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {3.6290592*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {3.7868256*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {3.9446784*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {4.1024448*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {4.2602112*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {4.4179776*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {4.5758304*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {4.7335968*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {4.8913632*^9, 
+      FormBox[
+       TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
+      0.006666666666666666, 0}}, {5.0491296*^9, 
       FormBox[
        TemplateBox[{0, 0}, "Spacer2"], TraditionalForm], {
       0.006666666666666666, 0}}}, None}]], "Output",
  CellChangeTimes->{{3.8657134604528494`*^9, 3.865713490259362*^9}, 
-   3.865713525134987*^9, 3.8657135556763277`*^9},
- CellLabel->"Out[10]=",ExpressionUUID->"79bb7418-04b6-465e-b64a-d9e9421a351b"]
+   3.865713525134987*^9, 3.8657135556763277`*^9, {3.86571371335052*^9, 
+   3.865713743284212*^9}, {3.8657138459427233`*^9, 3.8657138618059177`*^9}},
+ CellLabel->"Out[14]=",ExpressionUUID->"f8543a20-1277-4978-9812-ff147cb89f51"]
 }, Open  ]]
 },
-WindowSize->{571.8, 524.4},
+WindowSize->{1152., 615.6},
 WindowMargins->{{
-  104.39999999999999`, Automatic}, {-68.39999999999998, Automatic}},
+  Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
 FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"0ae0ebb4-dc4a-4050-a4ef-c2c4f5ac394d"
@@ -2203,16 +3103,16 @@ Cell[580, 22, 646, 14, 28, "Input",ExpressionUUID->"731b1d7e-890c-4b1f-909b-e31c
 Cell[1229, 38, 40889, 880, 369, "Output",ExpressionUUID->"2f8fc076-a61e-44c2-bdfd-73c1fe8b5c54"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[42155, 923, 740, 16, 105, "Input",ExpressionUUID->"47906389-ea26-49d3-b5f7-7839d05d0546"],
+Cell[42155, 923, 740, 16, 48, "Input",ExpressionUUID->"47906389-ea26-49d3-b5f7-7839d05d0546"],
 Cell[42898, 941, 24124, 476, 233, "Output",ExpressionUUID->"57d1bfb9-fcd3-42e3-afa5-ef54e3d13a4e"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[67059, 1422, 547, 11, 59, "Input",ExpressionUUID->"b1e47035-7595-406d-ae48-c1e65874eedf"],
-Cell[67609, 1435, 6302, 144, 259, "Output",ExpressionUUID->"321e74f4-885e-4c0e-9021-d65ca06b8503"]
+Cell[67059, 1422, 547, 11, 39, "Input",ExpressionUUID->"b1e47035-7595-406d-ae48-c1e65874eedf"],
+Cell[67609, 1435, 6302, 144, 108, "Output",ExpressionUUID->"321e74f4-885e-4c0e-9021-d65ca06b8503"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[73948, 1584, 1001, 21, 143, "Input",ExpressionUUID->"4233b481-7757-422d-8a64-3a9899cf477c"],
-Cell[74952, 1607, 23876, 572, 188, "Output",ExpressionUUID->"79bb7418-04b6-465e-b64a-d9e9421a351b"]
+Cell[73948, 1584, 2547, 54, 181, "Input",ExpressionUUID->"4233b481-7757-422d-8a64-3a9899cf477c"],
+Cell[76498, 1640, 59656, 1439, 579, "Output",ExpressionUUID->"f8543a20-1277-4978-9812-ff147cb89f51"]
 }, Open  ]]
 }
 ]
