@@ -823,14 +823,19 @@ Cell[BoxData[
            RowBox[{"\"\<Frequency-Standards\>\"", "->", 
             RowBox[{"<|", 
              RowBox[{
-             "\"\<Name\>\"", "->", 
-              "\"\<CCL-CCTF Working Group on Frequency Standards \
-(CCL-CCTF-WGFS)\>\""}], "|>"}]}], "|>"}]}]}], "|>"}]}]}], "|>"}]}], "|>"}], 
+              RowBox[{
+              "\"\<Name\>\"", "->", 
+               "\"\<CCL-CCTF Working Group on Frequency Standards \
+(CCL-CCTF-WGFS)\>\""}], ",", 
+              RowBox[{
+              "\"\<Website\>\"", "->", 
+               "\"\<https://www.bipm.org/en/committees/cc/cctf/wg/ccl-cctf-\
+wgfs\>\""}]}], "|>"}]}], "|>"}]}]}], "|>"}]}]}], "|>"}]}], "|>"}], 
   "]"}]], "Input",
  CellChangeTimes->{{3.865865248753682*^9, 3.8658652905126886`*^9}, {
   3.8658653473112707`*^9, 3.8658654060158043`*^9}, {3.8658654563248014`*^9, 
-  3.865865458921796*^9}, {3.865865502784791*^9, 3.8658656064097905`*^9}},
- CellLabel->"In[5]:=",
+  3.865865458921796*^9}, {3.865865502784791*^9, 3.8658656458013463`*^9}},
+ CellLabel->"In[6]:=",
  CellID->768198175,ExpressionUUID->"efd1cc50-e81a-415d-ad32-66f46455597e"],
 
 Cell[BoxData[
@@ -849,9 +854,11 @@ Cell[BoxData[
             "Frequency-Standards" -> <|
               "Name" -> 
                "CCL-CCTF Working Group on Frequency Standards \
-(CCL-CCTF-WGFS)"|>|>|>|>|>, "AllowEmbedding" -> True, "InitialShape" -> 
+(CCL-CCTF-WGFS)", "Website" -> 
+               "https://www.bipm.org/en/committees/cc/cctf/wg/ccl-cctf-wgfs"|>\
+|>|>|>|>, "AllowEmbedding" -> True, "InitialShape" -> 
      TypeSystem`PackageScope`HeaderShape[<|{All, 
-          TypeSystem`PackageScope`KeyDummy[3]} -> 
+          TypeSystem`PackageScope`KeyDummy[4]} -> 
         1, {All, "PhysicalQuantity"} -> 
         1, {All, 
           "ConsultativeCommittee"} -> <|{
@@ -897,11 +904,12 @@ Cell[BoxData[
            TypeSystem`Assoc[
             TypeSystem`Atom[String], 
             TypeSystem`Assoc[
-             TypeSystem`Atom[String], 
-             TypeSystem`Atom[String], 1], 1]}]}], 1], "Meta" -> <||>, 
+             TypeSystem`Atom[
+              TypeSystem`Enumeration["Name", "Website"]], 
+             TypeSystem`Atom[String], 2], 1]}]}], 1], "Meta" -> <||>, 
      "RowTarget" -> 20, "ColumnTarget" -> 10, "Shape" -> 
      TypeSystem`PackageScope`HeaderShape[<|{All, 
-          TypeSystem`PackageScope`KeyDummy[3]} -> 
+          TypeSystem`PackageScope`KeyDummy[4]} -> 
         1, {All, "PhysicalQuantity"} -> 
         1, {All, 
           "ConsultativeCommittee"} -> <|{
@@ -947,8 +955,9 @@ Cell[BoxData[
            TypeSystem`Assoc[
             TypeSystem`Atom[String], 
             TypeSystem`Assoc[
-             TypeSystem`Atom[String], 
-             TypeSystem`Atom[String], 1], 1]}]}], 1], "Path" -> {}, 
+             TypeSystem`Atom[
+              TypeSystem`Enumeration["Name", "Website"]], 
+             TypeSystem`Atom[String], 2], 1]}]}], 1], "Path" -> {}, 
      "DisplayedRowCount" -> 1, "DisplayedColumnCount" -> 2, "DataRowCount" -> 
      1, "DataColumnCount" -> 2, "SortPaths" -> {}, "SortDirections" -> {}, 
      "HiddenItemsMap" -> Null, "UpdateType" -> 1|>, 
@@ -1299,12 +1308,17 @@ fr\[EAcute]quence",
                   
                   Style[<|"Name" -> 
                     "CCL-CCTF Working Group on Frequency Standards \
-(CCL-CCTF-WGFS)"|>, ShowStringCharacters -> False], 
+(CCL-CCTF-WGFS)", "Website" -> 
+                    "https://www.bipm.org/en/committees/cc/cctf/wg/ccl-cctf-\
+wgfs"|>, ShowStringCharacters -> False], 
                   Style[
                    
                    Style[<|"Name" -> 
                     "CCL-CCTF Working Group on Frequency Standards \
-(CCL-CCTF-WGFS)"|>, ShowStringCharacters -> False], FontColor -> 
+(CCL-CCTF-WGFS)", "Website" -> 
+                    
+                    "https://www.bipm.org/en/committees/cc/cctf/wg/ccl-cctf-\
+wgfs"|>, ShowStringCharacters -> False], FontColor -> 
                    RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
@@ -1639,9 +1653,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
- CellChangeTimes->{3.865865607386802*^9},
- CellLabel->"Out[5]=",
- CellID->279081897,ExpressionUUID->"b68895bf-e2ad-43df-9b63-1a77a6fd292d"]
+ CellChangeTimes->{3.865865607386802*^9, 3.865865647431343*^9},
+ CellLabel->"Out[6]=",
+ CellID->147325763,ExpressionUUID->"3724129d-1661-4223-8986-b15a72652c25"]
 }, Open  ]]
 }, Open  ]],
 
