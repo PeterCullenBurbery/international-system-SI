@@ -820,22 +820,35 @@ Cell[BoxData[
          RowBox[{"\"\<Initialism\>\"", "->", "\"\<CCTF\>\""}], ",", 
          RowBox[{"\"\<WorkingGroups\>\"", "->", 
           RowBox[{"<|", 
-           RowBox[{"\"\<Frequency-Standards\>\"", "->", 
-            RowBox[{"<|", 
-             RowBox[{
+           RowBox[{
+            RowBox[{"\"\<Frequency-Standards\>\"", "->", 
+             RowBox[{"<|", 
               RowBox[{
-              "\"\<Name\>\"", "->", 
-               "\"\<CCL-CCTF Working Group on Frequency Standards \
+               RowBox[{
+               "\"\<Name\>\"", "->", 
+                "\"\<CCL-CCTF Working Group on Frequency Standards \
 (CCL-CCTF-WGFS)\>\""}], ",", 
+               RowBox[{
+               "\"\<Website\>\"", "->", 
+                "\"\<https://www.bipm.org/en/committees/cc/cctf/wg/ccl-cctf-\
+wgfs\>\""}]}], "|>"}]}], ",", 
+            RowBox[{"\"\<Time Scale Algorithms\>\"", "->", 
+             RowBox[{"<|", 
               RowBox[{
-              "\"\<Website\>\"", "->", 
-               "\"\<https://www.bipm.org/en/committees/cc/cctf/wg/ccl-cctf-\
-wgfs\>\""}]}], "|>"}]}], "|>"}]}]}], "|>"}]}]}], "|>"}]}], "|>"}], 
+               RowBox[{
+               "\"\<Name\>\"", "->", 
+                "\"\<CCTF Working Group on Time Scale Algorithms \
+(CCTF-WG-ALGO)\>\""}], ",", 
+               RowBox[{
+               "\"\<Website\>\"", "->", 
+                "\"\<https://www.bipm.org/en/committees/cc/cctf/wg/cctf-wg-\
+algo\>\""}]}], "|>"}]}]}], "|>"}]}]}], "|>"}]}]}], "|>"}]}], "|>"}], 
   "]"}]], "Input",
  CellChangeTimes->{{3.865865248753682*^9, 3.8658652905126886`*^9}, {
   3.8658653473112707`*^9, 3.8658654060158043`*^9}, {3.8658654563248014`*^9, 
-  3.865865458921796*^9}, {3.865865502784791*^9, 3.8658656458013463`*^9}},
- CellLabel->"In[6]:=",
+  3.865865458921796*^9}, {3.865865502784791*^9, 3.8658656458013463`*^9}, {
+  3.865865718923875*^9, 3.865865775964959*^9}},
+ CellLabel->"In[8]:=",
  CellID->768198175,ExpressionUUID->"efd1cc50-e81a-415d-ad32-66f46455597e"],
 
 Cell[BoxData[
@@ -856,16 +869,28 @@ Cell[BoxData[
                "CCL-CCTF Working Group on Frequency Standards \
 (CCL-CCTF-WGFS)", "Website" -> 
                "https://www.bipm.org/en/committees/cc/cctf/wg/ccl-cctf-wgfs"|>\
-|>|>|>|>, "AllowEmbedding" -> True, "InitialShape" -> 
+, "Time Scale Algorithms" -> <|
+              "Name" -> 
+               "CCTF Working Group on Time Scale Algorithms (CCTF-WG-ALGO)", 
+               "Website" -> 
+               "https://www.bipm.org/en/committees/cc/cctf/wg/cctf-wg-algo"|>|>\
+|>|>|>, "AllowEmbedding" -> True, "InitialShape" -> 
      TypeSystem`PackageScope`HeaderShape[<|{All, 
-          TypeSystem`PackageScope`KeyDummy[4]} -> 
+          TypeSystem`PackageScope`KeyDummy[7]} -> 
         1, {All, "PhysicalQuantity"} -> 
         1, {All, 
           "ConsultativeCommittee"} -> <|{
            All, "ConsultativeCommittee", "EnglishName"} -> 
           1, {All, "ConsultativeCommittee", "FrenchName"} -> 
           1, {All, "ConsultativeCommittee", "Initialism"} -> 
-          1, {All, "ConsultativeCommittee", "WorkingGroups"} -> 3|>|>, 
+          1, {
+           All, "ConsultativeCommittee", 
+            "WorkingGroups"} -> <|{
+             All, "ConsultativeCommittee", "WorkingGroups", All, 
+              TypeSystem`PackageScope`KeyDummy[6]} -> 
+            1, {All, "ConsultativeCommittee", "WorkingGroups", All, "Name"} -> 
+            1, {All, "ConsultativeCommittee", "WorkingGroups", All, 
+              "Website"} -> 1|>|>|>, 
        TypeSystem`PackageScope`Limited[
         TypeSystem`PackageScope`ColumnShape[
          TypeSystem`PackageScope`KeyValueShape[
@@ -886,8 +911,14 @@ Cell[BoxData[
                  "WorkingGroups" -> TypeSystem`PackageScope`Limited[
                    TypeSystem`PackageScope`ColumnShape[
                     TypeSystem`PackageScope`KeyValueShape[
-                    TypeSystem`PackageScope`AtomShape[212.8], 
-                    TypeSystem`PackageScope`ElidedShape[2]]], 1, 
+                    TypeSystem`PackageScope`AtomShape[235.20000000000002`], 
+                    TypeSystem`PackageScope`Limited[
+                    
+                    TypeSystem`PackageScope`RowShape[<|
+                    "Name" -> TypeSystem`PackageScope`AtomShape[560.], 
+                    "Website" -> TypeSystem`PackageScope`AtomShape[560.]|>], 
+                    DirectedInfinity[1], 2, {
+                    All, "ConsultativeCommittee", "WorkingGroups", All}]]], 2, 
                    DirectedInfinity[1], {
                    All, "ConsultativeCommittee", "WorkingGroups"}]|>], 
                DirectedInfinity[1], 4, {All, "ConsultativeCommittee"}]|>], 
@@ -903,20 +934,25 @@ Cell[BoxData[
            TypeSystem`Atom[String], 
            TypeSystem`Assoc[
             TypeSystem`Atom[String], 
-            TypeSystem`Assoc[
-             TypeSystem`Atom[
-              TypeSystem`Enumeration["Name", "Website"]], 
-             TypeSystem`Atom[String], 2], 1]}]}], 1], "Meta" -> <||>, 
+            TypeSystem`Struct[{"Name", "Website"}, {
+              TypeSystem`Atom[String], 
+              TypeSystem`Atom[String]}], 2]}]}], 1], "Meta" -> <||>, 
      "RowTarget" -> 20, "ColumnTarget" -> 10, "Shape" -> 
      TypeSystem`PackageScope`HeaderShape[<|{All, 
-          TypeSystem`PackageScope`KeyDummy[4]} -> 
+          TypeSystem`PackageScope`KeyDummy[7]} -> 
         1, {All, "PhysicalQuantity"} -> 
         1, {All, 
           "ConsultativeCommittee"} -> <|{
            All, "ConsultativeCommittee", "EnglishName"} -> 
           1, {All, "ConsultativeCommittee", "FrenchName"} -> 
           1, {All, "ConsultativeCommittee", "Initialism"} -> 
-          1, {All, "ConsultativeCommittee", "WorkingGroups"} -> 3|>|>, 
+          1, {All, "ConsultativeCommittee", 
+            "WorkingGroups"} -> <|{
+             All, "ConsultativeCommittee", "WorkingGroups", All, 
+              TypeSystem`PackageScope`KeyDummy[6]} -> 
+            1, {All, "ConsultativeCommittee", "WorkingGroups", All, "Name"} -> 
+            1, {All, "ConsultativeCommittee", "WorkingGroups", All, 
+              "Website"} -> 1|>|>|>, 
        TypeSystem`PackageScope`Limited[
         TypeSystem`PackageScope`ColumnShape[
          TypeSystem`PackageScope`KeyValueShape[
@@ -937,8 +973,14 @@ Cell[BoxData[
                  "WorkingGroups" -> TypeSystem`PackageScope`Limited[
                    TypeSystem`PackageScope`ColumnShape[
                     TypeSystem`PackageScope`KeyValueShape[
-                    TypeSystem`PackageScope`AtomShape[212.8], 
-                    TypeSystem`PackageScope`ElidedShape[2]]], 1, 
+                    TypeSystem`PackageScope`AtomShape[235.20000000000002`], 
+                    TypeSystem`PackageScope`Limited[
+                    
+                    TypeSystem`PackageScope`RowShape[<|
+                    "Name" -> TypeSystem`PackageScope`AtomShape[560.], 
+                    "Website" -> TypeSystem`PackageScope`AtomShape[560.]|>], 
+                    DirectedInfinity[1], 2, {
+                    All, "ConsultativeCommittee", "WorkingGroups", All}]]], 2, 
                    DirectedInfinity[1], {
                    All, "ConsultativeCommittee", "WorkingGroups"}]|>], 
                DirectedInfinity[1], 4, {All, "ConsultativeCommittee"}]|>], 
@@ -954,10 +996,9 @@ Cell[BoxData[
            TypeSystem`Atom[String], 
            TypeSystem`Assoc[
             TypeSystem`Atom[String], 
-            TypeSystem`Assoc[
-             TypeSystem`Atom[
-              TypeSystem`Enumeration["Name", "Website"]], 
-             TypeSystem`Atom[String], 2], 1]}]}], 1], "Path" -> {}, 
+            TypeSystem`Struct[{"Name", "Website"}, {
+              TypeSystem`Atom[String], 
+              TypeSystem`Atom[String]}], 2]}]}], 1], "Path" -> {}, 
      "DisplayedRowCount" -> 1, "DisplayedColumnCount" -> 2, "DataRowCount" -> 
      1, "DataColumnCount" -> 2, "SortPaths" -> {}, "SortDirections" -> {}, 
      "HiddenItemsMap" -> Null, "UpdateType" -> 1|>, 
@@ -1182,6 +1223,98 @@ Cell[BoxData[
               ImageMargins -> {{5, 3}, {4, 5}}], Background -> 
              GrayLevel[0.95], Alignment -> {Center, Baseline}], SpanFromLeft, 
             SpanFromLeft}, {
+           SpanFromAbove, SpanFromAbove, SpanFromAbove, SpanFromAbove, 
+            SpanFromAbove, 
+            Item[
+             Pane[
+              Annotation[
+               Mouseover[
+                
+                Graphics[{}, ImageSize -> 6, BaselinePosition -> 
+                 Scaled[-0.15]], 
+                Graphics[{
+                  GrayLevel[0.6], 
+                  
+                  Polygon[{{2^Rational[-1, 2], -2^Rational[-1, 2]}, {
+                    2^Rational[-1, 2], 2^
+                    Rational[-1, 2]}, {-2^Rational[-1, 2], 2^
+                    Rational[-1, 2]}, {-2^Rational[-1, 2], -2^
+                    Rational[-1, 2]}}]}, ImageSize -> 6, BaselinePosition -> 
+                 Scaled[-0.15]]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                All, "ConsultativeCommittee", "WorkingGroups", All, Keys}, 
+                "KeyDummy", True], "Mouse"], 
+              ImageSize -> {{1, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], Background -> 
+             GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+            Item[
+             Pane[
+              Annotation[
+               EventHandler[
+                MouseAppearance[
+                 Mouseover["Name", 
+                  Style[
+                  "Name", FontColor -> 
+                   RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                If[
+                  TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                  TypeSystem`NestedGrid`PackagePrivate`$state$$], 
+                  TypeSystem`NestedGrid`PackagePrivate`updateState[
+                  TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                   TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                   TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                   TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                   TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                   TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
+                   All, "ConsultativeCommittee", "WorkingGroups", All, 
+                    "Name"}, 1]]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                All, "ConsultativeCommittee", "WorkingGroups", All, "Name"}, 
+                "ColumnHeader", True], "Mouse"], 
+              ImageSize -> {{1, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], Background -> 
+             GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+            Item[
+             Pane[
+              Annotation[
+               EventHandler[
+                MouseAppearance[
+                 Mouseover["Website", 
+                  Style[
+                  "Website", FontColor -> 
+                   RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                If[
+                  TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                  TypeSystem`NestedGrid`PackagePrivate`$state$$], 
+                  TypeSystem`NestedGrid`PackagePrivate`updateState[
+                  TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                   TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                   TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                   TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                   TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                   TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
+                   All, "ConsultativeCommittee", "WorkingGroups", All, 
+                    "Website"}, 1]]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                All, "ConsultativeCommittee", "WorkingGroups", All, 
+                 "Website"}, "ColumnHeader", True], "Mouse"], 
+              ImageSize -> {{1, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], Background -> 
+             GrayLevel[0.95], Alignment -> {Left, Baseline}]}, {
             Item[
              Pane[
               Annotation[
@@ -1296,29 +1429,49 @@ fr\[EAcute]quence",
                  Key["ConsultativeCommittee"], 
                  Key["WorkingGroups"], 
                  Key["Frequency-Standards"]}, "RowHeader", False], "Mouse"], 
-              ImageSize -> {{212.8, Full}, Automatic}, 
+              ImageSize -> {{235.20000000000002`, Full}, Automatic}, 
               ImageMargins -> {{5, 3}, {4, 5}}], Background -> 
              GrayLevel[0.95], Alignment -> {Left, Baseline}], 
             Item[
              Pane[
               Annotation[
+              "CCL-CCTF Working Group on Frequency Standards (CCL-CCTF-WGFS)", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Time"], 
+                 Key["ConsultativeCommittee"], 
+                 Key["WorkingGroups"], 
+                 Key["Frequency-Standards"], 
+                 Key["Name"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{560., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+              "https://www.bipm.org/en/committees/cc/cctf/wg/ccl-cctf-wgfs", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Time"], 
+                 Key["ConsultativeCommittee"], 
+                 Key["WorkingGroups"], 
+                 Key["Frequency-Standards"], 
+                 Key["Website"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{560., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+           SpanFromAbove, SpanFromAbove, SpanFromAbove, SpanFromAbove, 
+            SpanFromAbove, 
+            Item[
+             Pane[
+              Annotation[
                EventHandler[
                 MouseAppearance[
-                 Mouseover[
-                  
-                  Style[<|"Name" -> 
-                    "CCL-CCTF Working Group on Frequency Standards \
-(CCL-CCTF-WGFS)", "Website" -> 
-                    "https://www.bipm.org/en/committees/cc/cctf/wg/ccl-cctf-\
-wgfs"|>, ShowStringCharacters -> False], 
+                 Mouseover["Time Scale Algorithms", 
                   Style[
-                   
-                   Style[<|"Name" -> 
-                    "CCL-CCTF Working Group on Frequency Standards \
-(CCL-CCTF-WGFS)", "Website" -> 
-                    
-                    "https://www.bipm.org/en/committees/cc/cctf/wg/ccl-cctf-\
-wgfs"|>, ShowStringCharacters -> False], FontColor -> 
+                  "Time Scale Algorithms", FontColor -> 
                    RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
@@ -1337,15 +1490,47 @@ wgfs"|>, ShowStringCharacters -> False], FontColor ->
                     Key["Time"], 
                     Key["ConsultativeCommittee"], 
                     Key["WorkingGroups"], 
-                    Key["Frequency-Standards"]}, 4]]], 
+                    Key["Time Scale Algorithms"]}, 1]]], 
                TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                 TypeSystem`NestedGrid`PackagePrivate`localHold[
                 TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
                  Key["Time"], 
                  Key["ConsultativeCommittee"], 
                  Key["WorkingGroups"], 
-                 Key["Frequency-Standards"]}, "Item", False], "Mouse"], 
-              ImageMargins -> {{5, 3}, {4, 5}}]], SpanFromLeft}}, 
+                 Key["Time Scale Algorithms"]}, "RowHeader", False], "Mouse"],
+               ImageSize -> {{235.20000000000002`, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], Background -> 
+             GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+            Item[
+             Pane[
+              Annotation[
+              "CCTF Working Group on Time Scale Algorithms (CCTF-WG-ALGO)", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Time"], 
+                 Key["ConsultativeCommittee"], 
+                 Key["WorkingGroups"], 
+                 Key["Time Scale Algorithms"], 
+                 Key["Name"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{560., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+              "https://www.bipm.org/en/committees/cc/cctf/wg/cctf-wg-algo", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Time"], 
+                 Key["ConsultativeCommittee"], 
+                 Key["WorkingGroups"], 
+                 Key["Time Scale Algorithms"], 
+                 Key["Website"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{560., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}}, 
           BaseStyle -> {
            ContextMenu -> 
             Dynamic[TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger; 
@@ -1635,13 +1820,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         Hold[
           TypeSystem`NestedGrid`PackagePrivate`localHold[
           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{1416., {46.13403328722343, 51.86596671277657}},
+      ImageSizeCache->{2574., {73.13403328722343, 78.86596671277657}},
       TrackedSymbols:>{
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
      TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
      MouseAnnotation[],
-     ImageSizeCache->{1416., {46.13403328722343, 51.86596671277657}}],
+     ImageSizeCache->{2574., {73.13403328722343, 78.86596671277657}}],
     BaseStyle->{LineBreakWithin -> False},
     DynamicModuleValues:>{},
     Initialization:>(TypeSystem`NestedGrid`PackagePrivate`$outputID$$ = 
@@ -1653,9 +1838,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
- CellChangeTimes->{3.865865607386802*^9, 3.865865647431343*^9},
- CellLabel->"Out[6]=",
- CellID->147325763,ExpressionUUID->"3724129d-1661-4223-8986-b15a72652c25"]
+ CellChangeTimes->{3.865865741526874*^9, 3.865865784561034*^9},
+ CellLabel->"Out[8]=",
+ CellID->179622681,ExpressionUUID->"b9b1c375-09c8-4f4f-965b-ac44299a52b1"]
 }, Open  ]]
 }, Open  ]],
 
@@ -3016,8 +3201,7 @@ Cell["Additional information for the reviewer.", "Text",
 }, Open  ]]
 },
 WindowSize->{669.6, 524.4},
-WindowMargins->{{
-  Automatic, -34.200000000000045`}, {-5.399999999999977, Automatic}},
+WindowMargins->{{135.6, Automatic}, {27.600000000000023`, Automatic}},
 Visible->True,
 TaggingRules->{
  "ResourceType" -> "Data", "ResourceCreateNotebook" -> True, 
