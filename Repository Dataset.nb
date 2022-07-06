@@ -4651,7 +4651,8 @@ Cell["Additional information for the reviewer.", "Text",
 }, Open  ]]
 },
 WindowSize->{574.1999999999999, 524.4},
-WindowMargins->{{Automatic, -37.200000000000045`}, {Automatic, 35.4}},
+WindowMargins->{{Automatic, 208.20000000000005`}, {
+  4.800000000000068, Automatic}},
 Visible->True,
 TaggingRules->{
  "ResourceType" -> "Data", "ResourceCreateNotebook" -> True, 
@@ -5724,7 +5725,6 @@ AsyncronousResourceInformationUpdates = False,
                 Quiet[
                  
                  Block[{$ContextPath = RSNB`$cp$, 
-                   
                    ResourceSystemClient`$\
 AsyncronousResourceInformationUpdates = False, 
                    DefinitionNotebookClient`$ButtonCodeID = None}, 
